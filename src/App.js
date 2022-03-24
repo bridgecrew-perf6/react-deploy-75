@@ -6,7 +6,7 @@ function App(props) {
   // return
   return (
    <div>
-        Hello React
+        Hello React II
    </div> 
   )
 }
