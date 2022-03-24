@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reac-deploy/static/css/main.3aec792f.css",
+    "main.js": "/reac-deploy/static/js/main.94ce695e.js",
+    "index.html": "/reac-deploy/index.html",
+    "main.3aec792f.css.map": "/reac-deploy/static/css/main.3aec792f.css.map",
+    "main.94ce695e.js.map": "/reac-deploy/static/js/main.94ce695e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3aec792f.css",
+    "static/js/main.94ce695e.js"
+  ]
+}
