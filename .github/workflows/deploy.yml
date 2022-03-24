@@ -5,17 +5,19 @@ on:
     branches:
       - master
 
+
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [15.x]
+
     steps:
       - name: Comprobacion
         uses: actions/checkout@master
-
-      - name: Create Node Eviroment
-        uses: actions/setup-node@v1
-        with:
-          node-version: 10.x
 
       - name: Instalar y Compilar
         run: npm install && npm run build
